@@ -20,7 +20,7 @@ const LoginPopup = ({ setShowLogin }) => {
           <input type="checkbox" required />
           <p>By continuing, i agree to the term of use & privacy  policy.</p>
         </div>
-        {currentState === "Login" ? <p>create new account? <span onClick={() => setCurrentState("Sign Up")}>Click here</span></p> : <p>Already have an account <span onClick={() => setCurrentState("Login")}>Login hetre</span></p>}
+        {currentState === "Login" ? <p>create new account? <span onClick={() => setCurrentState("Sign Up")}>Click here</span></p> : <p>Already have an account <span onClick={() => setCurrentState("Login")}>Login here</span></p>}
 
       </form>
     </div>
